@@ -16,7 +16,7 @@ setInterval(async()=>{
     if(result.asks && result.asks.length){
         console.log(`Lowest Sell: ${result.asks[0][0]}`);
         sell = parseFloat(result.asks[0][0]);
-        //console.log(qs)
+        
     }
 
     if (sell && sell < goodBuy){
